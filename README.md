@@ -6,8 +6,8 @@
 
 <p align='center' style="text-align:center;font-size:1.25em;">
    <a href="https://github.com/RichardDuan-shandong" target="_blank" style="text-decoration: none;">WeiCheng Duan</a>, <sup>a,1</sup>, 
-    <a href="https://github.com/tj-messi" target="_blank" style="text-decoration: none;">Junze Zhu</a>,<sup>b,1</sup>, 
+    <a href="https://github.com/tj-messi" target="_blank" style="text-decoration: none;">Junze Zhu</a>,<sup>a,1</sup>, 
 
-
+     &nbsp;<br/>
     <sup>a</sup> <strong>the School of Computer Science and Technology Matched organization, Tongji University, China</strong><br/>
 </p>
