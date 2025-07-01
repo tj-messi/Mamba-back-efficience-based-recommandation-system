@@ -8,6 +8,14 @@
    <a href="https://github.com/RichardDuan-shandong" target="_blank" style="text-decoration: none;">WeiCheng Duan</a>, <sup>a,1</sup>, 
     <a href="https://github.com/tj-messi" target="_blank" style="text-decoration: none;">Junze Zhu</a>,<sup>a,1</sup>, 
 
-     &nbsp;<br/>
-    <sup>a</sup> <strong>the School of Computer Science and Technology Matched organization, Tongji University, China</strong><br/>
+&nbsp;<br/>
+    <sup>a</sup> <strong>Department of Clinical Neurosciences, University of Cambridge, UK</strong><br/>
+    <sup>b</sup> <strong>School of Science and Engineering, University of Dundee, UK</strong><br/>
+    <sup>c</sup> <strong>Department of Neurosurgery, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen
+ University Cancer Center, China</strong><br/>
+    <sup>d</sup> <strong>Department of Pathology, State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University
+ Cancer Center, China</strong><br/>
+    <sup>e</sup> <strong>Department of Applied Mathematics and Theoretical Physics, University of Cambridge, UK</strong>
+    <sup>f</sup> <strong>School of Medicine, University of Dundee, UK</strong>
+     
 </p>
