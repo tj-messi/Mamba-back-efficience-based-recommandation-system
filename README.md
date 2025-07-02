@@ -36,13 +36,15 @@
 Solve the environment by doing :
 
             conda create -n mamba python=3.10
-
             conda activate mamba
-
-              
+            
             pip install torch-2.3.1+cu118-cp310-cp310-linux_x86_64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple
             pip install torchvision-0.18.1+cu118-cp310-cp310-linux_x86_64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple
             pip install torchaudio-2.3.1+cu118-cp310-cp310-linux_x86_64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+            pip install causal_conv1d-1.4.0+cu118torch2.3cxx11abiFALSE-cp310-cp310-linux_x86_64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple
+            pip install mamba_ssm-2.2.2+cu118torch2.3cxx11abiFALSE-cp310-cp310-linux_x86_64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 
 
   
