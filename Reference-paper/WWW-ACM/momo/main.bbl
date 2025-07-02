@@ -1,0 +1,166 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{14}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Devlin et~al\mbox{.}(2019)]%
+        {BERT}
+\bibfield{author}{\bibinfo{person}{Jacob Devlin}, \bibinfo{person}{Ming-Wei Chang}, \bibinfo{person}{Kenton Lee}, {and} \bibinfo{person}{Kristina Toutanova}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}}, \bibfield{editor}{\bibinfo{person}{Jill Burstein}, \bibinfo{person}{Christy Doran}, {and} \bibinfo{person}{Thamar Solorio}} (Eds.). \bibinfo{publisher}{Association for Computational Linguistics}, \bibinfo{address}{Minneapolis, Minnesota}, \bibinfo{pages}{4171--4186}.
+\newblock
+\href{https://doi.org/10.18653/v1/N19-1423}{doi:\nolinkurl{10.18653/v1/N19-1423}}
+
+
+\bibitem[Fu et~al\mbox{.}(2025)]%
+        {EReL}
+\bibfield{author}{\bibinfo{person}{Junchen Fu}, \bibinfo{person}{Xuri Ge}, \bibinfo{person}{Xin Xin}, \bibinfo{person}{Haitao Yu}, \bibinfo{person}{Yue Feng}, \bibinfo{person}{Alexandros Karatzoglou}, \bibinfo{person}{Ioannis Arapakis}, {and} \bibinfo{person}{Joemon~M. Jose}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{The 1st EReL\@MIR Workshop on Efficient Representation Learning for Multimodal Information Retrieval}.
+\newblock
+\showeprint[arxiv]{2504.14788}~[cs.IR]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2504.14788}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Guo et~al\mbox{.}(2017)]%
+        {DeepFM}
+\bibfield{author}{\bibinfo{person}{Huifeng Guo}, \bibinfo{person}{Ruiming Tang}, \bibinfo{person}{Yunming Ye}, \bibinfo{person}{Zhenguo Li}, {and} \bibinfo{person}{Xiuqiang He}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{DeepFM: a factorization-machine based neural network for CTR prediction}. In \bibinfo{booktitle}{\emph{Proceedings of the 26th International Joint Conference on Artificial Intelligence}} (Melbourne, Australia) \emph{(\bibinfo{series}{IJCAI'17})}. \bibinfo{publisher}{AAAI Press}, \bibinfo{pages}{1725---1731}.
+\newblock
+\showISBNx{9780999241103}
+
+
+\bibitem[He and Chua(2017)]%
+        {NFM}
+\bibfield{author}{\bibinfo{person}{Xiangnan He} {and} \bibinfo{person}{Tat-Seng Chua}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Neural Factorization Machines for Sparse Predictive Analytics}. In \bibinfo{booktitle}{\emph{Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval}} (Shinjuku, Tokyo, Japan) \emph{(\bibinfo{series}{SIGIR '17})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{355---364}.
+\newblock
+\showISBNx{9781450350228}
+\href{https://doi.org/10.1145/3077136.3080777}{doi:\nolinkurl{10.1145/3077136.3080777}}
+
+
+\bibitem[Juan et~al\mbox{.}(2016)]%
+        {FFM}
+\bibfield{author}{\bibinfo{person}{Yuchin Juan}, \bibinfo{person}{Yong Zhuang}, \bibinfo{person}{Wei-Sheng Chin}, {and} \bibinfo{person}{Chih-Jen Lin}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Field-aware Factorization Machines for CTR Prediction}. In \bibinfo{booktitle}{\emph{Proceedings of the 10th ACM Conference on Recommender Systems}} (Boston, Massachusetts, USA) \emph{(\bibinfo{series}{RecSys '16})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{43---50}.
+\newblock
+\showISBNx{9781450340359}
+\href{https://doi.org/10.1145/2959100.2959134}{doi:\nolinkurl{10.1145/2959100.2959134}}
+
+
+\bibitem[Kang and McAuley(2018)]%
+        {SASRec}
+\bibfield{author}{\bibinfo{person}{Wang-Cheng Kang} {and} \bibinfo{person}{Julian McAuley}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{ Self-Attentive Sequential Recommendation }}. In \bibinfo{booktitle}{\emph{2018 IEEE International Conference on Data Mining (ICDM)}}. \bibinfo{publisher}{IEEE Computer Society}, \bibinfo{address}{Los Alamitos, CA, USA}, \bibinfo{pages}{197--206}.
+\newblock
+\href{https://doi.org/10.1109/ICDM.2018.00035}{doi:\nolinkurl{10.1109/ICDM.2018.00035}}
+
+
+\bibitem[Lian et~al\mbox{.}(2018)]%
+        {xDeepFM}
+\bibfield{author}{\bibinfo{person}{Jianxun Lian}, \bibinfo{person}{Xiaohuan Zhou}, \bibinfo{person}{Fuzheng Zhang}, \bibinfo{person}{Zhongxia Chen}, \bibinfo{person}{Xing Xie}, {and} \bibinfo{person}{Guangzhong Sun}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems}. In \bibinfo{booktitle}{\emph{Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining}} (London, United Kingdom) \emph{(\bibinfo{series}{KDD '18})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1754---1763}.
+\newblock
+\showISBNx{9781450355520}
+\href{https://doi.org/10.1145/3219819.3220023}{doi:\nolinkurl{10.1145/3219819.3220023}}
+
+
+\bibitem[Ni et~al\mbox{.}(2023)]%
+        {MicroLens}
+\bibfield{author}{\bibinfo{person}{Yongxin Ni}, \bibinfo{person}{Yu Cheng}, \bibinfo{person}{Xiangyan Liu}, \bibinfo{person}{Junchen Fu}, \bibinfo{person}{Youhua Li}, \bibinfo{person}{Xiangnan He}, \bibinfo{person}{Yongfeng Zhang}, {and} \bibinfo{person}{Fajie Yuan}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{A Content-Driven Micro-Video Recommendation Dataset at Scale}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2309.15379}} (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Radford et~al\mbox{.}(2021)]%
+        {CLIP}
+\bibfield{author}{\bibinfo{person}{Alec Radford}, \bibinfo{person}{Jong~Wook Kim}, \bibinfo{person}{Chris Hallacy}, \bibinfo{person}{Aditya Ramesh}, \bibinfo{person}{Gabriel Goh}, \bibinfo{person}{Sandhini Agarwal}, \bibinfo{person}{Girish Sastry}, \bibinfo{person}{Amanda Askell}, \bibinfo{person}{Pamela Mishkin}, \bibinfo{person}{Jack Clark}, \bibinfo{person}{Gretchen Krueger}, {and} \bibinfo{person}{Ilya Sutskever}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Learning Transferable Visual Models From Natural Language Supervision}. In \bibinfo{booktitle}{\emph{Proceedings of the 38th International Conference on Machine Learning}} \emph{(\bibinfo{series}{Proceedings of Machine Learning Research}, Vol.~\bibinfo{volume}{139})}, \bibfield{editor}{\bibinfo{person}{Marina Meila} {and} \bibinfo{person}{Tong Zhang}} (Eds.). \bibinfo{publisher}{PMLR}, \bibinfo{pages}{8748--8763}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v139/radford21a.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Rendle(2010)]%
+        {FM}
+\bibfield{author}{\bibinfo{person}{Steffen Rendle}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Factorization Machines}. In \bibinfo{booktitle}{\emph{Proceedings of the 2010 IEEE International Conference on Data Mining}} \emph{(\bibinfo{series}{ICDM '10})}. \bibinfo{publisher}{IEEE Computer Society}, \bibinfo{address}{USA}, \bibinfo{pages}{995---1000}.
+\newblock
+\showISBNx{9780769542560}
+\href{https://doi.org/10.1109/ICDM.2010.127}{doi:\nolinkurl{10.1109/ICDM.2010.127}}
+
+
+\bibitem[Song et~al\mbox{.}(2019)]%
+        {AutoInt}
+\bibfield{author}{\bibinfo{person}{Weiping Song}, \bibinfo{person}{Chence Shi}, \bibinfo{person}{Zhiping Xiao}, \bibinfo{person}{Zhijian Duan}, \bibinfo{person}{Yewen Xu}, \bibinfo{person}{Ming Zhang}, {and} \bibinfo{person}{Jian Tang}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks}. In \bibinfo{booktitle}{\emph{Proceedings of the 28th ACM International Conference on Information and Knowledge Management}} (Beijing, China) \emph{(\bibinfo{series}{CIKM '19})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1161---1170}.
+\newblock
+\showISBNx{9781450369763}
+\href{https://doi.org/10.1145/3357384.3357925}{doi:\nolinkurl{10.1145/3357384.3357925}}
+
+
+\bibitem[Wang et~al\mbox{.}(2021)]%
+        {DCNv2}
+\bibfield{author}{\bibinfo{person}{Ruoxi Wang}, \bibinfo{person}{Rakesh Shivanna}, \bibinfo{person}{Derek Cheng}, \bibinfo{person}{Sagar Jain}, \bibinfo{person}{Dong Lin}, \bibinfo{person}{Lichan Hong}, {and} \bibinfo{person}{Ed Chi}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{DCN V2: Improved Deep \& Cross Network and Practical Lessons for Web-scale Learning to Rank Systems}. In \bibinfo{booktitle}{\emph{Proceedings of the Web Conference 2021}} (Ljubljana, Slovenia) \emph{(\bibinfo{series}{WWW '21})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1785--1797}.
+\newblock
+\showISBNx{9781450383127}
+\href{https://doi.org/10.1145/3442381.3450078}{doi:\nolinkurl{10.1145/3442381.3450078}}
+
+
+\bibitem[Xia et~al\mbox{.}(2023)]%
+        {TransAct}
+\bibfield{author}{\bibinfo{person}{Xue Xia}, \bibinfo{person}{Pong Eksombatchai}, \bibinfo{person}{Nikil Pancha}, \bibinfo{person}{Dhruvil~Deven Badani}, \bibinfo{person}{Po-Wei Wang}, \bibinfo{person}{Neng Gu}, \bibinfo{person}{Saurabh~Vishwas Joshi}, \bibinfo{person}{Nazanin Farahpour}, \bibinfo{person}{Zhiyuan Zhang}, {and} \bibinfo{person}{Andrew Zhai}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{TransAct: Transformer-based Realtime User Action Model for Recommendation at Pinterest}. In \bibinfo{booktitle}{\emph{Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining}} (Long Beach, CA, USA) \emph{(\bibinfo{series}{KDD '23})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{5249--5259}.
+\newblock
+\showISBNx{9798400701030}
+\href{https://doi.org/10.1145/3580305.3599918}{doi:\nolinkurl{10.1145/3580305.3599918}}
+
+
+\bibitem[Zhou et~al\mbox{.}(2018)]%
+        {DIN}
+\bibfield{author}{\bibinfo{person}{Guorui Zhou}, \bibinfo{person}{Xiaoqiang Zhu}, \bibinfo{person}{Chenru Song}, \bibinfo{person}{Ying Fan}, \bibinfo{person}{Han Zhu}, \bibinfo{person}{Xiao Ma}, \bibinfo{person}{Yanghui Yan}, \bibinfo{person}{Junqi Jin}, \bibinfo{person}{Han Li}, {and} \bibinfo{person}{Kun Gai}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Deep Interest Network for Click-Through Rate Prediction}. In \bibinfo{booktitle}{\emph{Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining}} (London, United Kingdom) \emph{(\bibinfo{series}{KDD '18})}. \bibinfo{publisher}{Association for Computing Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1059--1068}.
+\newblock
+\showISBNx{9781450355520}
+\href{https://doi.org/10.1145/3219819.3219823}{doi:\nolinkurl{10.1145/3219819.3219823}}
+
+
+\end{thebibliography}
