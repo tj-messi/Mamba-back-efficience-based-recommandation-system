@@ -33,7 +33,7 @@
 - mamba-ssm ：2.2.2
 - cuda-nvcc：1.8.89
 
-Solve the environment by doing :
+* Solve the environment by doing : *
 
             conda create -n mamba python=3.10
             conda activate mamba
@@ -45,7 +45,7 @@ Solve the environment by doing :
             pip install causal_conv1d-1.4.0+cu118torch2.3cxx11abiFALSE-cp310-cp310-linux_x86_64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple
             pip install mamba_ssm-2.2.2+cu118torch2.3cxx11abiFALSE-cp310-cp310-linux_x86_64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-
+            pip install fuxictr==2.3.7 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
   
 
