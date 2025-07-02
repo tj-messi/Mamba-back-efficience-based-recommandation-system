@@ -33,7 +33,7 @@
 - mamba-ssm ：2.2.2
 - cuda-nvcc：1.8.89
 
-* Solve the environment by doing : *
+Solve the environment by doing : 
 
             conda create -n mamba python=3.10
             conda activate mamba
