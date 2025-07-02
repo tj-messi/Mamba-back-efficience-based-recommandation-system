@@ -47,7 +47,10 @@ Solve the environment by doing :
 
             pip install fuxictr==2.3.7 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-  
+  And change the fuxictr-code in rank_model.py in line 146:
+
+                    self._best_metric = np.inf if self._monitor_mode == "min" else -np.inf
+
 
 
 
