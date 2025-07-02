@@ -47,6 +47,11 @@ Solve the environment by doing :
 
             pip install fuxictr==2.3.7 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+            pip install triton==2.3.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+            pip install transformers==4.43.3 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+            conda install -c "nvidia/label/cuda-11.8.0" cuda-nvcc
+
   And change the fuxictr-code in rank_model.py in line 146:
 
                     self._best_metric = np.inf if self._monitor_mode == "min" else -np.inf
