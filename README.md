@@ -52,7 +52,7 @@ Solve the environment by doing :
 
             conda install -c "nvidia/label/cuda-11.8.0" cuda-nvcc
 
-  And change the fuxictr-code in rank_model.py in line 146:
+  And change the fuxictr-code in fuxictr/pytorch/model/rank_model.py in line 146:
 
             self._best_metric = np.inf if self._monitor_mode == "min" else -np.inf
 
