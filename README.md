@@ -11,3 +11,27 @@
     <sup>a</sup> <strong>The School of Computer Science and Technology Matched organization, Tongji University, China</strong><br/>
      
 </p>
+
+
+## 📣 Latest Updates
+
+
+## 🧠 Key Takeaways
+
+
+## 📝 About this code
+
+## How to apply the work
+### 1. Environment
+
+torch：2.3.1+cu118
+torchaudio：2.3.1+cu118
+torchvision：0.18.1+cu118
+triton：2.3.1
+transformers：4.43.3
+causal-conv1d：1.4.0
+mamba-ssm ：2.2.2
+cuda-nvcc：1.8.89
+
+
+            conda create -n mamba python=3.10
