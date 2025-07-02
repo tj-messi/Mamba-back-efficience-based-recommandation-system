@@ -54,7 +54,7 @@ Solve the environment by doing :
 
   And change the fuxictr-code in rank_model.py in line 146:
 
-                    self._best_metric = np.inf if self._monitor_mode == "min" else -np.inf
+            self._best_metric = np.inf if self._monitor_mode == "min" else -np.inf
 
 
 
