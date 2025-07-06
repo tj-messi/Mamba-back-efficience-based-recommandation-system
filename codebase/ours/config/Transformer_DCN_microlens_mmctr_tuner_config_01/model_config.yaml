@@ -1,0 +1,461 @@
+Transformer_DCN_MicroLens_1M_x1_001_820c435c:
+    batch_norm: false
+    batch_size: 256
+    concat_max_pool: true
+    dataset_id: MicroLens_1M_x1
+    dcn_cross_layers: 3
+    dcn_hidden_units: [1024, 512, 256]
+    debug_mode: false
+    dim_feedforward: 256
+    early_stop_patience: 5
+    embedding_dim: 64
+    embedding_regularizer: 0
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    first_k_cols: 16
+    concat_max_pool: True
+    dnn_hidden_units: [1024, 512, 256]
+    dnn_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_hidden_activations: ReLU
+    attention_output_activation: null
+    attention_dropout: 0.1
+    din_use_softmax: True
+    batch_norm: True
+    group_id: user_id
+    hidden_activations: relu
+    learning_rate: 0.0005
+    loss: binary_crossentropy
+    metrics: [logloss, AUC]
+    mlp_hidden_units: [64, 32]
+    model: Transformer_DCN
+    model_root: ./checkpoints/
+    monitor: {AUC: 1}
+    monitor_mode: max
+    net_dropout: 0.2
+    net_regularizer: 0
+    num_heads: 1
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    transformer_dropout: 0.2
+    transformer_layers: 2
+    use_features: null
+    verbose: 1
+
+
+Transformer_DCN_MicroLens_1M_x1_001_loss1:
+    batch_norm: false
+    batch_size: 256
+    concat_max_pool: true
+    dataset_id: MicroLens_1M_x1
+    dcn_cross_layers: 3
+    dcn_hidden_units: [1024, 512, 256]
+    debug_mode: false
+    dim_feedforward: 256
+    early_stop_patience: 5
+    embedding_dim: 64
+    embedding_regularizer: 0
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    first_k_cols: 16
+    concat_max_pool: True
+    dnn_hidden_units: [1024, 512, 256]
+    dnn_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_hidden_activations: ReLU
+    attention_output_activation: null
+    attention_dropout: 0.1
+    din_use_softmax: True
+    batch_norm: True
+    group_id: user_id
+    hidden_activations: relu
+    learning_rate: 0.0005
+    loss: binary_crossentropy
+    metrics: [logloss, AUC]
+    mlp_hidden_units: [64, 32]
+    model: Transformer_DCN
+    model_root: ./checkpoints/
+    monitor: {AUC: 1}
+    monitor_mode: max
+    net_dropout: 0.2
+    net_regularizer: 0
+    num_heads: 1
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    transformer_dropout: 0.2
+    transformer_layers: 2
+    use_features: null
+    verbose: 1
+
+Transformer_DCN_MicroLens_1M_x1_001_loss2:
+    batch_norm: false
+    batch_size: 256
+    concat_max_pool: true
+    dataset_id: MicroLens_1M_x1
+    dcn_cross_layers: 3
+    dcn_hidden_units: [1024, 512, 256]
+    debug_mode: false
+    dim_feedforward: 256
+    early_stop_patience: 5
+    embedding_dim: 64
+    embedding_regularizer: 0
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    first_k_cols: 16
+    concat_max_pool: True
+    dnn_hidden_units: [1024, 512, 256]
+    dnn_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_hidden_activations: ReLU
+    attention_output_activation: null
+    attention_dropout: 0.1
+    din_use_softmax: True
+    batch_norm: True
+    group_id: user_id
+    hidden_activations: relu
+    learning_rate: 0.0005
+    loss: binary_crossentropy
+    metrics: [logloss, AUC]
+    mlp_hidden_units: [64, 32]
+    model: Transformer_DCN
+    model_root: ./checkpoints/
+    monitor: {AUC: 1}
+    monitor_mode: max
+    net_dropout: 0.2
+    net_regularizer: 0
+    num_heads: 1
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    transformer_dropout: 0.2
+    transformer_layers: 2
+    use_features: null
+    verbose: 1
+
+Transformer_DCN_MicroLens_1M_x1_001_323m436f:
+    batch_norm: false
+    batch_size: 128
+    concat_max_pool: true
+    dataset_id: MicroLens_1M_x1
+    dcn_cross_layers: 3
+    dcn_hidden_units: [1024, 512, 256]
+    debug_mode: false
+    dim_feedforward: 256
+    early_stop_patience: 5
+    embedding_dim: 64
+    embedding_regularizer: 0
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    first_k_cols: 16
+    concat_max_pool: True
+    dnn_hidden_units: [1024, 512, 256]
+    dnn_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_hidden_activations: ReLU
+    attention_output_activation: null
+    attention_dropout: 0.1
+    din_use_softmax: True
+    batch_norm: True
+    group_id: user_id
+    hidden_activations: relu
+    learning_rate: 0.0005
+    loss: binary_crossentropy
+    metrics: [logloss, AUC]
+    mlp_hidden_units: [64, 32]
+    model: Transformer_DCN
+    model_root: ./checkpoints/
+    monitor: {AUC: 1}
+    monitor_mode: max
+    net_dropout: 0.2
+    net_regularizer: 0
+    num_heads: 1
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    transformer_dropout: 0.2
+    transformer_layers: 2
+    use_features: null
+    verbose: 1
+
+Transformer_DCN_MicroLens_1M_x1_001_loss1_128:
+    batch_norm: false
+    batch_size: 128
+    concat_max_pool: true
+    dataset_id: MicroLens_1M_x1
+    dcn_cross_layers: 3
+    dcn_hidden_units: [1024, 512, 256]
+    debug_mode: false
+    dim_feedforward: 256
+    early_stop_patience: 5
+    embedding_dim: 64
+    embedding_regularizer: 0
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    first_k_cols: 16
+    concat_max_pool: True
+    dnn_hidden_units: [1024, 512, 256]
+    dnn_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_hidden_activations: ReLU
+    attention_output_activation: null
+    attention_dropout: 0.1
+    din_use_softmax: True
+    batch_norm: True
+    group_id: user_id
+    hidden_activations: relu
+    learning_rate: 0.0005
+    loss: binary_crossentropy
+    metrics: [logloss, AUC]
+    mlp_hidden_units: [64, 32]
+    model: Transformer_DCN
+    model_root: ./checkpoints/
+    monitor: {AUC: 1}
+    monitor_mode: max
+    net_dropout: 0.2
+    net_regularizer: 0
+    num_heads: 1
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    transformer_dropout: 0.2
+    transformer_layers: 2
+    use_features: null
+    verbose: 1
+
+Transformer_DCN_MicroLens_1M_x1_001_loss2_128:
+    batch_norm: false
+    batch_size: 128
+    concat_max_pool: true
+    dataset_id: MicroLens_1M_x1
+    dcn_cross_layers: 3
+    dcn_hidden_units: [1024, 512, 256]
+    debug_mode: false
+    dim_feedforward: 256
+    early_stop_patience: 5
+    embedding_dim: 64
+    embedding_regularizer: 0
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    first_k_cols: 16
+    concat_max_pool: True
+    dnn_hidden_units: [1024, 512, 256]
+    dnn_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_hidden_activations: ReLU
+    attention_output_activation: null
+    attention_dropout: 0.1
+    din_use_softmax: True
+    batch_norm: True
+    group_id: user_id
+    hidden_activations: relu
+    learning_rate: 0.0005
+    loss: binary_crossentropy
+    metrics: [logloss, AUC]
+    mlp_hidden_units: [64, 32]
+    model: Transformer_DCN
+    model_root: ./checkpoints/
+    monitor: {AUC: 1}
+    monitor_mode: max
+    net_dropout: 0.2
+    net_regularizer: 0
+    num_heads: 1
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    transformer_dropout: 0.2
+    transformer_layers: 2
+    use_features: null
+    verbose: 1
+
+
+Transformer_DCN_MicroLens_1M_x1_001_origin_64:
+    batch_norm: false
+    batch_size: 64
+    concat_max_pool: true
+    dataset_id: MicroLens_1M_x1
+    dcn_cross_layers: 3
+    dcn_hidden_units: [1024, 512, 256]
+    debug_mode: false
+    dim_feedforward: 256
+    early_stop_patience: 5
+    embedding_dim: 64
+    embedding_regularizer: 0
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    first_k_cols: 16
+    concat_max_pool: True
+    dnn_hidden_units: [1024, 512, 256]
+    dnn_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_hidden_activations: ReLU
+    attention_output_activation: null
+    attention_dropout: 0.1
+    din_use_softmax: True
+    batch_norm: True
+    group_id: user_id
+    hidden_activations: relu
+    learning_rate: 0.0005
+    loss: binary_crossentropy
+    metrics: [logloss, AUC]
+    mlp_hidden_units: [64, 32]
+    model: Transformer_DCN
+    model_root: ./checkpoints/
+    monitor: {AUC: 1}
+    monitor_mode: max
+    net_dropout: 0.2
+    net_regularizer: 0
+    num_heads: 1
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 43
+    shuffle: true
+    task: binary_classification
+    transformer_dropout: 0.2
+    transformer_layers: 2
+    use_features: null
+    verbose: 1
+
+Transformer_DCN_MicroLens_1M_x1_001_origin_64_seed2:
+    batch_norm: false
+    batch_size: 64
+    concat_max_pool: true
+    dataset_id: MicroLens_1M_x1
+    dcn_cross_layers: 3
+    dcn_hidden_units: [1024, 512, 256]
+    debug_mode: false
+    dim_feedforward: 256
+    early_stop_patience: 5
+    embedding_dim: 64
+    embedding_regularizer: 0
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    first_k_cols: 16
+    concat_max_pool: True
+    dnn_hidden_units: [1024, 512, 256]
+    dnn_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_hidden_activations: ReLU
+    attention_output_activation: null
+    attention_dropout: 0.1
+    din_use_softmax: True
+    batch_norm: True
+    group_id: user_id
+    hidden_activations: relu
+    learning_rate: 0.0005
+    loss: binary_crossentropy
+    metrics: [logloss, AUC]
+    mlp_hidden_units: [64, 32]
+    model: Transformer_DCN
+    model_root: ./checkpoints/
+    monitor: {AUC: 1}
+    monitor_mode: max
+    net_dropout: 0.2
+    net_regularizer: 0
+    num_heads: 1
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    transformer_dropout: 0.2
+    transformer_layers: 2
+    use_features: null
+    verbose: 1
+
+
+Transformer_DCN_MicroLens_1M_x1_001_loss2_64:
+    batch_norm: false
+    batch_size: 64
+    concat_max_pool: true
+    dataset_id: MicroLens_1M_x1
+    dcn_cross_layers: 3
+    dcn_hidden_units: [1024, 512, 256]
+    debug_mode: false
+    dim_feedforward: 256
+    early_stop_patience: 5
+    embedding_dim: 64
+    embedding_regularizer: 0
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    first_k_cols: 16
+    concat_max_pool: True
+    dnn_hidden_units: [1024, 512, 256]
+    dnn_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_hidden_activations: ReLU
+    attention_output_activation: null
+    attention_dropout: 0.1
+    din_use_softmax: True
+    batch_norm: True
+    group_id: user_id
+    hidden_activations: relu
+    learning_rate: 0.0005
+    loss: binary_crossentropy
+    metrics: [logloss, AUC]
+    mlp_hidden_units: [64, 32]
+    model: Transformer_DCN
+    model_root: ./checkpoints/
+    monitor: {AUC: 1}
+    monitor_mode: max
+    net_dropout: 0.2
+    net_regularizer: 0
+    num_heads: 1
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 43
+    shuffle: true
+    task: binary_classification
+    transformer_dropout: 0.2
+    transformer_layers: 2
+    use_features: null
+    verbose: 1

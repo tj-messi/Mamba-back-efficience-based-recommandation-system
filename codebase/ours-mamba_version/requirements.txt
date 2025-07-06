@@ -1,0 +1,5 @@
+fuxictr==2.3.7
+numpy==1.26.4
+pandas==2.2.3
+scikit_learn==1.4.0
+torch==1.13.1+cu117
